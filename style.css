@@ -1,0 +1,212 @@
+:root{
+    --primary-color:  #e50914;
+}
+
+*{
+    box-sizing: borber-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #000;
+    color: #999;
+
+}
+
+ul{
+    list-style: none
+}
+
+h1,h2,h3{
+    color: #fff;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+
+.showcase{
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    background: url('./img/Netflix-Background.jpg') no-repeat center center/cover;
+    border-bottom: 8px solid rgb(43, 41, 40);
+}
+
+.showcase-top{
+    position: relative;
+    height: 90px;
+    z-index: 2;
+}
+.showcase-top img{
+    width: 170px;
+    height: 70px;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    /* transform: translate(-50%, -50%); */
+}
+.showcase-top a{
+    position: absolute;
+    top : 30%;
+    right : 0;
+    transform: translate(-50%, -50%);
+
+}
+
+.btn{
+    display: inline-block;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    outline: none;
+    box-shadow: 0 1px 0 rgba(0,0,0, 0.45);
+    border-radius: 2px;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+.btn-rounded{
+    border-radius: 5px;
+}
+.btn-xl{
+    font-size: 1.4rem;
+    padding: 1rem 1.8rem;
+    text-transform: uppercase;
+}
+.btn-lg{
+    font-size: 1rem;
+    padding : 1.5rem 2.1rem;
+    text-transform: uppercase
+}
+
+.showcase-content{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+    text-align: center;
+    z-index: 2;
+    margin-top: 9rem
+    
+}
+.showcase-content .boldtext{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+.showcase-content .secondheading{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.showcase-content .thirdheading{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.showcase-content input{
+    padding: 20px;
+    
+}
+.showcase::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0,0,0,0.6);
+}
+.showcase-content .lasttext{
+    margin-top: 1rem;
+}
+
+.first{
+    display: flex;
+}
+.first .box{
+    flex: 1;
+    text-align: center;
+}
+.first .text{
+    text-align: center;
+    padding: 100px;
+}
+.first .text h1{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+
+}
+.first .text p{
+    font-size: 1.5rem
+}
+
+
+
+.first{
+    border-bottom: 9px solid rgb(43, 41, 40);
+}
+
+.second{
+    display: flex;
+}
+.second .box{
+    flex: 1;
+    text-align: center;
+}
+
+.second .text{
+    text-align: center;
+    padding: 100px;
+}
+.second .text h1{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+
+}
+.second .text p{
+    font-size: 1.5rem
+}
+
+.second{
+    border-bottom: 9px solid rgb(43, 41, 40);
+}
+
+.third{
+    display: flex;
+}
+.third .box{
+    flex: 1;
+    text-align: center;
+}
+
+.third .text{
+    text-align: center;
+    padding: 100px;
+}
+.third .text h1{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+
+}
+.third .text p{
+    font-size: 1.5rem
+}
+
+.third{
+    border-bottom: 9px solid rgb(43, 41, 40);
+} 
