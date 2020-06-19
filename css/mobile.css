@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+.showcase .showcase-top a{
+    margin-left: 1rem; 
+    
+}
+
+.showcase{
+    background: url('../img/Netflix-Background.jpg') center center no-repeat/cover ;
+    width: auto;
+}
+
+.showcase-content .boldtext{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.showcase-content .secondheading{
+    font-size: 1rem;
+    text-align : center;
+}
+.showcase-content .thirdheading{
+    font-size: 1rem;
+    text-align: center;
+}
+.showcase-content form input{
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    display: inline-block;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.7rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    outline: none;
+    /* box-shadow: 0 1px 0 rgba(0,0,0, 0.45); */
+    border-radius: 0.3rem;
+}
+
+.showcase-content .lasttext{
+    display: none;
+}
+
+.first{
+    display: block;
+}
+.first .text{
+    padding: 1rem;
+}
+.first .box h1{
+    font-size: 2rem;
+}
+.first .image{
+    margin-bottom: 1rem;
+}
+.second{
+    display: block;
+}
+.second .text{
+    padding: 1rem;
+}
+.second .box h1{
+    font-size: 2rem;
+}
+.third{
+    display: block;
+}
+.third .text{
+    padding: 1rem;
+}
+.third .box h1{
+    font-size: 2rem;
+}

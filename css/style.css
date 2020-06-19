@@ -10,7 +10,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased;
+    /* -webkit-font-smoothing: antialiased; */
     background: #000;
     color: #999;
 
@@ -36,18 +36,18 @@ img{
     width: 100%;
     height: 110vh;
     position: relative;
-    background: url('./img/Netflix-Background.jpg') no-repeat center center/cover;
-    border-bottom: 8px solid rgb(43, 41, 40);
+    background: url('../img/Netflix-Background.jpg') no-repeat center center/cover;
+    border-bottom: 0.6rem solid rgb(43, 41, 40);
 }
 
 .showcase-top{
     position: relative;
-    height: 90px;
+    height: 5rem;
     z-index: 2;
 }
 .showcase-top img{
-    width: 170px;
-    height: 70px;
+    width: 6rem;
+    height: 2.6rem;
     position: absolute;
     top: 30%;
     left: 3%;
@@ -55,7 +55,7 @@ img{
 }
 .showcase-top a{
     position: absolute;
-    top : 30%;
+    top : 50%;
     right : 0;
     transform: translate(-50%, -50%);
 
@@ -72,15 +72,15 @@ img{
     cursor: pointer;
     margin-right: 0.5rem;
     outline: none;
-    box-shadow: 0 1px 0 rgba(0,0,0, 0.45);
-    border-radius: 2px;
+    /* box-shadow: 0 1px 0 rgba(0,0,0, 0.45); */
+    border-radius: 0.3rem;
 }
 
 .btn:hover{
     opacity: 0.9;
 }
 .btn-rounded{
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 .btn-xl{
     font-size: 1.4rem;
@@ -105,6 +105,9 @@ img{
     margin-top: 9rem
     
 }
+.showcase-content p{
+    color: aliceblue;
+}
 .showcase-content .boldtext{
     font-size: 1.7rem;
     margin-bottom: 1rem;
@@ -118,7 +121,8 @@ img{
     margin-bottom: 1rem;
 }
 .showcase-content input{
-    padding: 20px;
+    padding: 1.2rem;
+    
     
 }
 .showcase::after{
@@ -144,7 +148,7 @@ img{
 }
 .first .text{
     text-align: center;
-    padding: 100px;
+    padding: 10rem;
 }
 .first .text h1{
     font-size: 4rem;
@@ -158,7 +162,7 @@ img{
 
 
 .first{
-    border-bottom: 9px solid rgb(43, 41, 40);
+    border-bottom: 0.6rem solid rgb(43, 41, 40);
 }
 
 .second{
@@ -183,7 +187,7 @@ img{
 }
 
 .second{
-    border-bottom: 9px solid rgb(43, 41, 40);
+    border-bottom: 0.6rem solid rgb(43, 41, 40);
 }
 
 .third{
@@ -208,5 +212,5 @@ img{
 }
 
 .third{
-    border-bottom: 9px solid rgb(43, 41, 40);
+    border-bottom: 0.6rem solid rgb(43, 41, 40);
 } 
